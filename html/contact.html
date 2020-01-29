@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact - XtreemTravel</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Thimo Reumerman 97050932">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+        <script src="../js/main.js"></script>
+        <link href="../images/travelicon.png" rel="icon">
+        <link href="../css/styles.css" rel="stylesheet">
+        <link href="../css/responsive.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+
+        <!-- Left menu -->
+        <div class="header primary">
+            <div class="inner_header">
+
+                <!-- Logo -->
+                <div class="logo_container primary dark">
+                    <h1>Xtreem<span>Travel</span></h1>
+                </div>
+
+                <!-- Navigation -->
+                <ul class="navigation">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="lastminute.html"><li>Last-Minute</li></a>
+                    <a href="about.html"><li>Over ons</li></a>
+                    <a href="contact.html" class="active"><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main site -->
+        <div id="main">
+
+            <div id="top">
+                <h3 class="fade">Contact</h3>
+                <div id="dropdown" onclick="dropdown()">
+                    <img src="../images/menu.png">
+                </div>
+            </div>
+
+            <div class="page fade" id="contact">
+                <div class="floating textcard">
+                    <h2>Vragen? Stel ze hier!</h2>
+                    <p>Op het onderstaande formulier kunt u vragen, suggesties en feedback sturen.</p>
+                </div>
+
+                <div class="floating textcard" id="formcard">
+
+                    <form name="contactformulier" action="mailto: 97050932@st.deltion.nl" method="post" enctype="text/plain">
+                        <fieldset>
+                            <legend>Contact</legend>
+                            <input required type="text" id="name" name="name" placeholder="Naam"><br>
+                            <input required type="email" id="email" name="email" placeholder="E-mail adres"><br>
+                            <input type="number" id="phonenumber" name="phonenumber" placeholder="Telefoonnummer"><br>
+                            <textarea required placeholder="Tik je vraag of commentaar in..."></textarea>
+                        </fieldset>
+                        <input type="submit" id="submit" name="submit" value="Verzend">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

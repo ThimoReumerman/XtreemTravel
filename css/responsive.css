@@ -1,0 +1,80 @@
+@media only screen and (max-width: 900px) {   
+    /* Main page */
+    .header {
+        left: unset;
+        top: 69px;
+        right: 0;
+        z-index: 1;
+        height: 300px;
+        display: none;
+    }
+
+    .logo_container {
+        display: none;
+    }
+
+    .top {
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        display: table;
+        top: 0;
+    }
+    
+    #main {
+        position: relative;
+        left: 0;
+    }
+
+    /* Homepage */
+    #description {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    #description h2 {
+        width: 100%;
+        font-size: auto;
+    }
+
+    #destinations {
+        width: 80%;
+        height: 1200px;
+        margin: 30px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #destinations .card {
+        width: 100%;
+        height: 350px;
+    }
+
+    #textbox {
+        background-color: rgba(121, 121, 121, 0.5);
+        margin-top: 25%;
+        transition: none;
+    }
+
+    #textbox h3 {
+        font-size: 30px;
+    }
+
+    .card:hover #gradient #textbox {
+        margin-top: 25%;
+    }
+
+    #dropdown {
+        display: flex;
+        float: right;
+        height: 100%;
+        margin-right: 15px;
+    }
+
+    #dropdown img {
+        width: 40px;
+        height: 40px;
+        margin: auto;
+    }
+}

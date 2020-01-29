@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home - XtreemTravel</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+        <script src="../js/main.js"></script>
+        <link href="../images/travelicon.png" rel="icon">
+        <link href="../css/styles.css" rel="stylesheet">
+        <link href="../css/responsive.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+
+        <!-- Left menu -->
+        <div class="header primary">
+            <div class="inner_header">
+
+                <!-- Logo -->
+                <div class="logo_container primary dark">
+                    <h1>Xtreem<span>Travel</span></h1>
+                </div>
+
+                <!-- Navigation -->
+                <ul class="navigation">
+                    <a href="index.html" class="active"><li>Home</li></a>
+                    <a href="lastminute.html"><li>Last-Minute</li></a>
+                    <a href="about.html"><li>Over ons</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main site -->
+        <div id="main">
+
+            <div id="top">
+                <h3 class="fade">Home</h3>
+                <div id="dropdown" onclick="dropdown()">
+                    <img src="../images/menu.png">
+                </div>
+            </div>
+
+            <div class="page fade" id="home">
+
+                <div class="floating textcard" id="description">
+                    <h2>Welkom bij XtreemTravel!</h2>
+                    <p>Welkom bij XtreemTravel, de online booking website voor de extreemste vakanties. Boek je vakantie nu voor de voordeligste bestemmingen. Ons specialisme: de actiefste vakanties voor windsurfers, snorkelaars en mountainclimbers op alle continenten.</p>
+                </div>
+    
+                <!-- Destination cards -->
+                <div id="destinations">
+    
+                    <!-- Mexico -->
+                    <div class="card img" id="card1">
+                        <div id="gradient">
+                            <div id="textbox">
+                                <h3>Mexico</h3>
+                                <div class="line"></div>
+                                <p>Deze maand is het aantrekkelijkst voor windsurfing in Cancún, Mexico.</p>
+                                <div class="more"><a href="windsurfing.html"><p>Meer</p></a></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Himalayas -->
+                    <div class="card img" id="card2">
+                        <div id="gradient">
+                            <div id="textbox">
+                                <h3>Himalayas</h3>
+                                <div class="line"></div>
+                                <p>Deze week vertrekt een groep enthousiaste klimmers naar de Himalayas.</p>
+                                <div class="more"><a href="mountainclimbing.html"><p>Meer</p></a></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Costa Rica -->
+                    <div class="card img" id="card3">
+                        <div id="gradient">
+                            <div id="textbox">
+                                <h3>Costa Rica</h3>
+                                <div class="line"></div>
+                                <p>Snorkelen in Costa Rica. Naast de natuurreservaten heeft Costa Rica werelds tweede grootste koraalrif.</p>
+                                <div class="more"><a href="snorkling.html"><p>Meer</p></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
